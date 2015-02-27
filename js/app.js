@@ -34,13 +34,13 @@ $(document).ready(function () {
 });
 
 $(document).keydown(function(e) {
-	if (e.which = 88) {
+	if (e.which == 88) {
 		$('.ryu-still').hide();
 		$('.ryu-ready').hide();
 		$('.ryu-cool').show();
 	};
 }).keyup(function(e) {
-	if (e.which = 88) {
+	if (e.which == 88) {
 		$('.ryu-cool').hide();
 		$('.ryu-still').show();
 	};
